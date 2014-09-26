@@ -96,6 +96,7 @@ class Tetramino:
             print(*i, sep=" ", end="\n")
     
     def rotateTetramino(self):
+        """Rotates the specific tetramino 90 degrees clockwise."""
         self.tetramino = list(zip(*self.tetramino[::-1]))
 
 game = Board()
