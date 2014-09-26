@@ -125,19 +125,8 @@ while True:
         elif i == "n" and query:
             print(game.lines)
             query = False
-        elif i == "I":
-            game.activeTetramino = Tetramino(i)
-        elif i == "O":
-            game.activeTetramino = Tetramino(i)
-        elif i == "Z":
-            game.activeTetramino = Tetramino(i)
-        elif i == "S":
-            game.activeTetramino = Tetramino(i)
-        elif i == "J":
-            game.activeTetramino = Tetramino(i)
-        elif i == "L":
-            game.activeTetramino = Tetramino(i)
-        elif i == "T":
+        elif (i == "I") or (i == "O") or (i == "Z") or (i == "S") or
+             (i == "J") or (i == "L") or (i == "T"):
             game.activeTetramino = Tetramino(i)
         elif i == ")":
             game.activeTetramino.rotateTetramino()
