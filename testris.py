@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Testris is the test runner for Learntris. Learntris is
 the part *you* write, in whatever language you prefer.
