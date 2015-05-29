@@ -99,10 +99,10 @@ class Tetramino:
         """Rotates the specific tetramino 90 degrees clockwise."""
         self.tetramino = list(zip(*self.tetramino[::-1]))
 
+# Start a new game with an empty board and read commands from the user.
 game = Board()
 while True:
     commands = input().replace(" ", "")
-    #commands = input().split()
     query = False
     for i in commands:
         if i == "q":
@@ -137,4 +137,3 @@ while True:
             print("Bad input.")
             sys.exit(0)
 
-        
